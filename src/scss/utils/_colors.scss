@@ -13,7 +13,8 @@
   }
 
   .border-#{"" + $color} {
-    border-color: $value !important;
+    --#{$prefix}border-opacity: 1;
+    border-color: rgba(var(--#{$prefix}#{$color}-rgb), var(--#{$prefix}border-opacity)) !important;
   }
 }
 
@@ -35,6 +36,6 @@
   }
 
   .text-#{"" + $color}-fg {
-    color: color-contrast($value) !important;
+    color: $value !important;
   }
 }

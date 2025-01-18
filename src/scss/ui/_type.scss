@@ -113,6 +113,7 @@ pre {
 
   code {
     background: transparent;
+    padding: 0;
   }
 }
 
@@ -135,8 +136,7 @@ kbd,
   border-radius: $kbd-border-radius;
 }
 
-img,
-svg {
+img {
   max-width: 100%;
   height: auto;
 }
@@ -161,6 +161,10 @@ Links
     color: $nav-link-disabled-color !important;
     pointer-events: none;
   }
+}
+
+a:hover:has(.icon) {
+  text-decoration: none;
 }
 
 /**

@@ -45,8 +45,10 @@ plugins:
 
 tabler-css-plugins:
   - tabler-flags
+  - tabler-socials
   - tabler-payments
   - tabler-vendors
+  - tabler-marketing
 
 exclude:
   - .jekyll-cache
@@ -265,11 +267,10 @@ months-short: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'O
 months-long: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
 icons:
-  link: https://tabler-icons.io
+  link: https://tabler.io/icons
 
 emails:
   price: "$29"
-  count: 54
   buy_link: https://r.tabler.io/buy-emails
 
 illustrations:
