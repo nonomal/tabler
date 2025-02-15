@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/tabler/tabler"><img src="https://raw.githubusercontent.com/tabler/tabler/dev/src/static/logo.svg" alt="A premium and open source dashboard template with a responsive and high-quality UI." width="300"></a><br><br>
+<a href="https://github.com/tabler/tabler"><img src="https://raw.githubusercontent.com/tabler/tabler/refs/heads/dev/preview/static/logo.svg" alt="A premium and open source dashboard template with a responsive and high-quality UI." width="300"></a><br><br>
 A premium and open source dashboard template with a responsive and high-quality UI.
 </p>
 
@@ -13,19 +13,39 @@ A premium and open source dashboard template with a responsive and high-quality 
 <a href="https://github.com/tabler/tabler" target="__blank"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tabler/tabler?style=social"></a>
 </p>
 
+## Sponsors
+
+**If you want to support our project and help me grow it, you can [become a sponsor on GitHub](https://github.com/sponsors/codecalm) or just [donate on PayPal](https://paypal.me/codecalm) :)**
+
 <p align="center">
-  <a href="https://github.com/sponsors/codecalm">
-    <img src='https://raw.githubusercontent.com/tabler/static/main/sponsors.svg'>
-  </a>
+	<a href="https://github.com/sponsors/codecalm">
+		<img src="https://cdn.jsdelivr.net/gh/tabler/sponsors@latest/sponsors.svg" alt="Tabler sponsors">
+	</a>
 </p>
 
+## Testing
+
+<p align="center">Browser testing via:</p>
+
+<p align="center">
+	<a href="https://www.lambdatest.com/" target="_blank">
+		<picture>
+			<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/14dd2a0a-bafe-436e-a6cb-29636278c781">
+			<source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/d3dede5a-d702-47c3-bb66-4d887948ed83">
+			<img src="https://github.com/user-attachments/assets/d3dede5a-d702-47c3-bb66-4d887948ed83" alt="Tabler Icons preview" width="296">
+		</picture>
+	</a>
+</p>
 
 ## 🔎 Preview
 
 Tabler is fully responsive and compatible with all modern browsers. Thanks to its modern and user-friendly design you can create a fully functional interface that users will love! Choose the layouts and components you need and customize them to make your design consistent and eye-catching. Every component has been created with attention to detail to make your interface beautiful! <a href="https://preview.tabler.io">Show me a demo</a>
 
-<a href="https://preview.tabler.io" target="_blank"><img src="https://raw.githubusercontent.com/tabler/tabler/dev/src/static/tabler-preview.png" alt="Tabler preview"></a>
-
+<p align="center">
+	<a href="https://preview.tabler.io" target="_blank">
+			<img src="https://raw.githubusercontent.com/tabler/tabler/dev/preview/static/tabler-preview.png" alt="Tabler Preview">
+	</a>
+</p>
 
 ## 🚀 Features
 
@@ -50,8 +70,11 @@ To run the documentation site locally, follow instructions in the [Documentation
 
 ## 💕 Sponsor Tabler
 
-<a href="https://github.com/sponsors/codecalm" target="_blank"><img src="/src/static/sponsor-banner-readme.png?raw=true" alt="Sponsor Tabler" /></a>
-
+<p align="center">
+	<a href="https://github.com/sponsors/codecalm" target="_blank">
+			<img src="https://raw.githubusercontent.com/tabler/tabler/dev/preview/static/sponsor-banner-homepage.svg" alt="Sponsor Banner">
+	</a>
+</p>
 
 ### Sponsors
 
@@ -68,51 +91,38 @@ Support this project by becoming a sponsor. Your logo will show up in this READM
 <a href="https://opencollective.com/tabler/tiers/sponsor/8/website" target="_blank"><img src="https://opencollective.com/tabler/tiers/sponsor/8/avatar.svg" /></a>
 <a href="https://opencollective.com/tabler/tiers/sponsor/9/website" target="_blank"><img src="https://opencollective.com/tabler/tiers/sponsor/9/avatar.svg" /></a>
 
-
 ## 📦 Setup environment
 
 To use our build system and run our documentation locally, you'll need a copy of Tabler's source files. Follow the steps below:
 
 1. [Install Node.js](https://nodejs.org/download/), which we use to manage our dependencies.
 2. Navigate to the root `/tabler` directory and run `pnpm install` to install our local dependencies listed in `package.json`.
-3. [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) - the recommended version is [2.7.6](https://cache.ruby-lang.org/pub/ruby/2.7/ruby-2.7.6.tar.gz).
-4. [Install Bundler](https://bundler.io) with `gem install bundler` and finally run `bundle install`. It will install all Ruby dependencies, such as [Jekyll and plugins](https://jekyllrb.com).
 
 **OSX users**:
 
-1. NPM ```pnpm install```
-2. install Ruby (2.5.* recommended)
-	```brew install ruby @2.5```
-3. install bundler
-	```gem install bundler```
-4. install
-	```bundle install```
-- if bundler get any errors try
+```sh
+pnpm install
 ```
-sudo rm -rf /Library/Developer/CommandLineTools
-sudo xcode-select --install
-```
-5. Run NPM
-	```npm run start```
 
+and then 
+
+```sh
+npm run start
+```
 
 **Windows users**:
 
-1. [Install Git](https://git-scm.com/download/win) in `C:\Program Files\git\bin` directory and run `npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"` to change the default shell.
-2. [Install Ruby+Devkit](https://rubyinstaller.org/downloads/) - the recommended version is [2.7.6](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.6-1/rubyinstaller-devkit-2.7.6-1-x64.exe).
-3. [Read guide](https://jekyllrb.com/docs/installation/windows/) to get Jekyll up and running without problems.
+[Install Git](https://git-scm.com/download/win) in `C:\Program Files\git\bin` directory and run `npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"` to change the default shell.
 
 Once you complete the setup, you'll be able to run the various commands provided from the command line.
 
 
 ## Build locally
 
-You need to have `pnpm` and `bundler` installed.
+You need to have `pnpm` installed.
 
-1. From the root `/tabler` directory, run installation in the command line:
-  - `pnpm install` 
-  - `bundler install` 
-2. Then execute `pnpm run start-plugins` to start up the application stack.
+1. From the root `/tabler` directory, run installation in the command line: `pnpm install` 
+2. Then execute `pnpm run start` to start up the application stack.
 3. Open [http://localhost:3000](http://localhost:3000) in your browser, and voilà.
 4. Any change in the `/src` directory will build the application and refresh the page.
 
@@ -132,7 +142,7 @@ npm install --save @tabler/core
 
 **Plain Docker**
 
-If you don't want to install node/npm/ruby and the dependencies on your local environment, you can use the provided Dockerfile to build a docker image.
+If you don't want to install node/npm and the dependencies on your local environment, you can use the provided Dockerfile to build a docker image.
 This Dockerfile is provided as an example to spin-up a container running Tabler.
 
 Example of how to use this image:
